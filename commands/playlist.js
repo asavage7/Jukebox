@@ -128,12 +128,12 @@ async	function play(guild, song) {
         afk: false,
     };
     var online = afk[message.guild.id]
-    if (!song){
+    if (!song || message.guild.me.voice.channel.members.size == 1){
       if (!online.afk) {
-        sendError("Leaving the voice channel because queue is empty. Add another song to continue, or use the command `;afk` to let me stay in the voice channel 24/7.", message.channel)
+        sendError("Leaving the voice channel. Either queue was empty or I was alone in the VC. Add another song to continue, or use the command `;afk` to let me stay in the voice channel 24/7.", message.channel)
         message.guild.me.voice.channel.leave();//If you want your bot stay in vc 24/7 remove this line :D
-        message.client.queue.delete(message.guild.id);
-      }
+        message.client.queue.delete(message.guild.id);}
+
             return message.client.queue.delete(message.guild.id);
 }
  let stream = null; 
