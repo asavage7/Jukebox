@@ -4,8 +4,8 @@ const sendError = require("../util/error");
 module.exports = {
   info: {
     name: "bassboost",
-    description: "Boosts the bot's volume by 10x. To stop, use ;volume 10.",
-    usage: " ",
+    description: "Boosts the current song's volume by 10x.",
+    usage: "",
     aliases: ["bb"],
   },
 
@@ -17,7 +17,7 @@ module.exports = {
     serverQueue.volume = 100; 
     serverQueue.connection.dispatcher.setVolumeLogarithmic(20);
     let xd = new MessageEmbed()
-    .setDescription(`bAsS iS nOw BoOsTeD. tO uNdO, uSe ;volume 10`)
+    .setDescription(`bAsS iS nOw BoOsTeD. tO uNdO, uSe ;volume 5`)
     .setTitle("Volume")
     .setColor("BLUE")
     return message.channel.send(xd);

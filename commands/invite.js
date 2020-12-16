@@ -4,7 +4,7 @@ module.exports = {
   info: {
     name: "invite",
     description: "Gives an invite link to invite the bot to other servers.",
-    usage: "[invite]",
+    usage: " ",
     aliases: ["inv"],
   },
 

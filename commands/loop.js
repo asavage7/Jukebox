@@ -5,7 +5,7 @@ module.exports = {
   info: {
     name: "loop",
     description: "Loops the current queue. (Toggle)",
-    usage: "loop",
+    usage: " ",
     aliases: ["l"],
   },
 

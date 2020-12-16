@@ -9,7 +9,7 @@ module.exports = {
   info: {
     name: "play",
     description: "Allows you to play most songs from YouTube.",
-    usage: "<URL | Name>",
+    usage: "<URL/Name>",
     aliases: ["p, add"],
   },
 

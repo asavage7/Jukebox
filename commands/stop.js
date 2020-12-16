@@ -6,7 +6,7 @@ module.exports = {
   info: {
     name: "stop",
     description: "Stops all songs in the current queue.",
-    usage: "",
+    usage: " ",
     aliases: [],
   },
 

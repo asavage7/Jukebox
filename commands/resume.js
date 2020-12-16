@@ -5,7 +5,7 @@ module.exports = {
   info: {
     name: "resume",
     description: "Resumes the currently paused music in the server.",
-    usage: "",
+    usage: " ",
     aliases: [],
   },
 

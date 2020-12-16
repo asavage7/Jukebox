@@ -13,7 +13,7 @@ module.exports = {
 	info: {
 		name: "playlist",
 		description: "Allows you to play most playlists from YouTube.",
-		usage: "<URL | Name>",
+		usage: "<URL/Name>",
 		aliases: ["pl"],
 	},
 
@@ -39,7 +39,7 @@ module.exports = {
 				return message.channel.send({
 					embed: {
 						color: "GREEN",
-						description: `✅  **|**  Playlist: **\`${videos[0].title}\`** has been added to the queue`
+						description: `Playlist: **\`${videos[0].title}\`** has been added to the queue`
 					}
 				})
 			} catch (error) {

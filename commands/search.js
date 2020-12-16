@@ -10,7 +10,7 @@ module.exports = {
   info: {
     name: "search",
     description: "To search songs :D",
-    usage: "<song_name>",
+    usage: "<Song Name>",
     aliases: ["sc"],
   },
 

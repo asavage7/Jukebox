@@ -5,7 +5,7 @@ module.exports = {
   info: {
     name: "volume",
     description: "Changes the current bot volume.",
-    usage: "[volume]",
+    usage: "<volume>",
     aliases: ["v"],
   },
 

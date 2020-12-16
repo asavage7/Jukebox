@@ -5,7 +5,7 @@ module.exports = {
   info: {
     name: "shuffle",
     description: "Shuffles songs in queue. (Toggle)",
-    usage: "[shuffle]",
+    usage: " ",
     aliases: ["mix"],
   },
 

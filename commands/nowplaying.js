@@ -5,7 +5,7 @@ module.exports = {
   info: {
     name: "nowplaying",
     description: "Shows which song or video is currently playing.",
-    usage: "",
+    usage: " ",
     aliases: ["np"],
   },
 
@@ -20,7 +20,6 @@ module.exports = {
       .addField("Name", song.title, true)
       .addField("Duration", song.duration, true)
       .addField("Requested by", song.req.tag, true)
-      .setFooter(`Views: ${song.views} | ${song.ago}`)
     return message.channel.send(thing)
   },
 };

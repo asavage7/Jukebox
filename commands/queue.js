@@ -5,7 +5,7 @@ module.exports = {
   info: {
     name: "queue",
     description: "Shows all songs in the current queue.",
-    usage: "",
+    usage: " ",
     aliases: ["q", "list", "songlist", "song-list"],
   },
 
