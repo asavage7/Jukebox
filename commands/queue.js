@@ -22,7 +22,7 @@ module.exports = {
     const embeds = generateQueueEmbed(message, queue.songs);
 
     const queueEmbed = await message.channel.send(
-      `**\`${currentPage + 1}\`**/**${embeds.length}**`,
+      `**\`${currentPage + 1} / ${embeds.length + 1}\`**`,
       embeds[currentPage]
     );
 
@@ -46,7 +46,6 @@ function generateQueueEmbed(message, queue) {
     .addField("Now Playing", `[${queue[0].title}](${queue[0].url})`, true)
     .addField("Text Channel", serverQueue.textChannel, true)
     .addField("Voice Channel", serverQueue.voiceChannel, true)
-    .setFooter("Currently Server Volume is "+serverQueue.volume)
      if(serverQueue.songs.length === 1)embed.setDescription(`There are no songs to play next. To add a song use \`\`${message.client.config.prefix}play <song_name>\`\``)
 
     embeds.push(embed);

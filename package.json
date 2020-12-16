@@ -21,7 +21,7 @@
     "opusscript": "^0.0.7",
     "youtube-sr": "^2.0.1",
     "yt-search": "^2.2.4",
-    "ytdl-core": "^4.1.1",
+    "ytdl-core": "^4.1.6",
     "ytdl-core-discord": "^1.2.4",
     "ytpl": "^2.0.0-alpha.3"
   }

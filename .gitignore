@@ -2,6 +2,8 @@
 node_modules/
 package-lock.json
 yarn.lock
+bin/
+ffmpeg.exe
 
 # Envronmental Storage
 .env

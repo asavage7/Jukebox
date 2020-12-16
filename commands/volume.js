@@ -18,8 +18,8 @@ module.exports = {
     serverQueue.volume = args[0]; 
     serverQueue.connection.dispatcher.setVolumeLogarithmic(args[0] / 5);
     let xd = new MessageEmbed()
-    .setDescription(`I set the volume to: **${args[0]/5}/5**(it will be divied by 5)`)
-    .setTitle("Server Volume Manager")
+    .setDescription(`Volume is now **${args[0]}**`)
+    .setTitle("Volume")
     .setColor("BLUE")
     return message.channel.send(xd);
   },
