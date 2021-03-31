@@ -1,0 +1,28 @@
+{
+    "extends": [
+        "eslint:recommended"
+    ],
+    "env": {
+        "node": true,
+        "es6": true,
+        "browser": false
+    },
+    "parserOptions": {
+        "ecmaVersion": 2019
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "yoda": "error",
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "no-template-curly-in-string": "warn",
+        "prefer-arrow-callback": "error",
+        "prefer-template": "warn",
+        "no-useless-concat": "error"
+    }
+}
