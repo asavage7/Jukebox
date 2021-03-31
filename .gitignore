@@ -4,7 +4,7 @@ package-lock.json
 yarn.lock
 bin/
 ffmpeg.exe
-.metadata/
+NiceBot/
 
 # Envronmental Storage
 .env

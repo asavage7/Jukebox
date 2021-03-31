@@ -1,7 +1,7 @@
 {
-  "name": "smartys-groove",
+  "name": "jukebox",
   "version": "1.0.0",
-  "description": "Very simple discord music bot with the discordjs.guide command handler for easy learning and adapting.",
+  "description": "Very simple discord music bot without any features locked behiend a paywall.",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
