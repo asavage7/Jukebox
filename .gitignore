@@ -5,6 +5,7 @@ yarn.lock
 bin/
 ffmpeg.exe
 NiceBot/
+afk.json
 
 # Envronmental Storage
 .env
