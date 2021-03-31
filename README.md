@@ -1,30 +1,30 @@
 # Jukebox
-![enter image description here](https://travis-ci.com/asavage7/Jukebox.svg?branch=main)
-![Jukebox Logo](https://raw.githubusercontent.com/asavage7/Jukebox/main/assets/logo.png =128x)
+<img src="https://travis-ci.com/asavage7/Jukebox.svg?branch=main">
+<img src="https://raw.githubusercontent.com/asavage7/Jukebox/main/assets/logo.png" width=128>
 
 Jukebox is a fully-featured, completely free Discord Music Bot. It can play songs and playlists from YouTube, and can search for songs. It includes many commands to tailor Jukebox to your needs, all while hiding nothing behind a paywall.
 
 # Commands
-`;about` ~ Shows info about the bot.
-`;afk` ~ Allows the bot to stay in a voice channel when no music is playing. (Toggle) 
-`;bassboost` ~ Boosts the current song's volume by 10x. 
-`;help <command>` ~ Shows all bot commands. 
-`;invite` ~ Gives an invite link to invite the bot to other servers. 
-`;loop` ~ Loops the current queue. (Toggle) 
-`;lyrics` ~ Get lyrics for the currently playing song. 
-`;nowplaying` ~ Shows which song or video is currently playing. 
-`;pause` ~ Pauses the currently playing music in the server. 
-`;play <URL/Name>` ~ Allows you to play most songs from YouTube. 
-`;playlist <URL/Name>` ~ Allows you to play most playlists from YouTube. 
-`;queue` ~ Shows all songs in the current queue. 
-`;remove remove <number>` ~ Removes a specific song from the queue 
-`;resume` ~ Resumes the currently paused music in the server. 
-`;search <song name>` ~ Searches a song on YouTube
-`;shuffle` ~ Shuffles songs in queue. (Toggle) 
-`;skip` ~ Skips the current song. 
-`;skipto <number>` ~ Skips to the selected song 
-`;stop` ~ Stops all songs in the current queue. 
-`;volume <volume>` ~ Changes the current bot volume.
+- `;about` ~ Shows info about the bot. 
+- `;afk` ~ Allows the bot to stay in a voice channel when no music is playing. (Toggle)
+- `;bassboost` ~ Boosts the current song's volume by 10x. 
+- `;help <command>` ~ Shows all bot commands. 
+- `;invite` ~ Gives an invite link to invite the bot to other servers. 
+- `;loop` ~ Loops the current queue. (Toggle) 
+- `;lyrics` ~ Get lyrics for the currently playing song. 
+- `;nowplaying` ~ Shows which song or video is currently playing. 
+- `;pause` ~ Pauses the currently playing music in the server. 
+- `;play <URL/Name>` ~ Allows you to play most songs from YouTube. 
+- `;playlist <URL/Name>` ~ Allows you to play most playlists from YouTube. 
+- `;queue` ~ Shows all songs in the current queue. 
+- `;remove remove <number>` ~ Removes a specific song from the queue 
+- `;resume` ~ Resumes the currently paused music in the server. 
+- `;search <song name>` ~ Searches a song on YouTube
+- `;shuffle` ~ Shuffles songs in queue. (Toggle) 
+- `;skip` ~ Skips the current song. 
+- `;skipto <number>` ~ Skips to the selected song 
+- `;stop` ~ Stops all songs in the current queue. 
+- `;volume <volume>` ~ Changes the current bot volume.
 
 # Known Issues
 
