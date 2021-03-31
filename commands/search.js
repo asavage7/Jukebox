@@ -81,7 +81,7 @@ module.exports = {
         if (serverQueue) {
             serverQueue.songs.push(song);
             let thing = new MessageEmbed()
-                .setAuthor("Song has been added to queue", "./assets/disc.gif")
+                .setAuthor("Song has been added to queue", "https://raw.githubusercontent.com/asavage7/Jukebox/main/assets/disc.gif")
                 .setThumbnail(song.img)
                 .setColor("YELLOW")
                 .addField("Name", song.title, true)
@@ -146,7 +146,7 @@ module.exports = {
 
             dispatcher.setVolumeLogarithmic(queue.volume / 100);
             let thing = new MessageEmbed()
-                .setAuthor("Next Song in Queue, Playing Now.", "./assets/disc.gif")
+                .setAuthor("Next Song in Queue, Playing Now.", "https://raw.githubusercontent.com/asavage7/Jukebox/main/assets/disc.gif")
                 .setThumbnail(song.img)
                 .setColor("BLUE")
                 .addField("Name", song.title, true)

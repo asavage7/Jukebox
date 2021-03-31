@@ -24,7 +24,7 @@ module.exports = {
         }
 
         let lyricsEmbed = new MessageEmbed()
-            .setAuthor(`${queue.songs[0].title} — Lyrics`, "./assets/disc.gif")
+            .setAuthor(`${queue.songs[0].title} — Lyrics`, "https://raw.githubusercontent.com/asavage7/Jukebox/main/assets/disc.gif")
             .setThumbnail(queue.songs[0].img)
             .setColor("YELLOW")
             .setDescription(lyrics)

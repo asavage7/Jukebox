@@ -59,7 +59,7 @@ module.exports = {
                     await handleVideo(video, message, channel, true); // eslint-disable-line no-await-in-loop
                 }
                 let thing = new MessageEmbed()
-                    .setAuthor("Playlist has been added to queue.", "./assets/disc.gif")
+                    .setAuthor("Playlist has been added to queue.", "https://raw.githubusercontent.com/asavage7/Jukebox/main/assets/disc.gif")
                     .setThumbnail(songInfo.thumbnail)
                     .setColor("GREEN")
                     .setDescription(`Playlist: **\`${songInfo.title}\`** has been added. \`${songInfo.videoCount}\` videos were added to the queue.`)
@@ -108,7 +108,7 @@ module.exports = {
                 serverQueue.songs.push(song);
                 if (playlist) return;
                 let thing = new MessageEmbed()
-                    .setAuthor("Song has been added to queue.", "./assets/disc.gif")
+                    .setAuthor("Song has been added to queue.", "https://raw.githubusercontent.com/asavage7/Jukebox/main/assets/disc.gif")
                     .setThumbnail(song.img)
                     .setColor("BLUE")
                     .addField("Name", song.title, true)
@@ -163,7 +163,7 @@ module.exports = {
 
             dispatcher.setVolume(serverQueue.volume / 100);
             let thing = new MessageEmbed()
-                .setAuthor("Next Song in Queue, Playing Now.", "./assets/disc.gif")
+                .setAuthor("Next Song in Queue, Playing Now.", "https://raw.githubusercontent.com/asavage7/Jukebox/main/assets/disc.gif")
                 .setThumbnail(song.img)
                 .setColor("BLUE")
                 .addField("Name", song.title, true)
