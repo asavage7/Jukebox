@@ -1,5 +1,8 @@
 # Jukebox
 <img src="https://travis-ci.com/asavage7/Jukebox.svg?branch=main">
+<iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=fork&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
 <img src="https://raw.githubusercontent.com/asavage7/Jukebox/main/assets/logo.png" width=128>
 
 Jukebox is a fully-featured, completely free Discord Music Bot. It can play songs and playlists from YouTube, and can search for songs. It includes many commands to tailor Jukebox to your needs, all while hiding nothing behind a paywall.
