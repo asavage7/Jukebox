@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Alex\Coding\NiceBot\.metadata\.plugins\org.eclipse.jdt.core
+1209923609.index
+2196199803.index
+1892844200.index

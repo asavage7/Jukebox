@@ -24,7 +24,7 @@ module.exports = {
     }
 
     let lyricsEmbed = new MessageEmbed()
-      .setAuthor(`${queue.songs[0].title} — Lyrics`, "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
+      .setAuthor(`${queue.songs[0].title} — Lyrics`, "./assets/disc.gif")
       .setThumbnail(queue.songs[0].img)
       .setColor("YELLOW")
       .setDescription(lyrics)
