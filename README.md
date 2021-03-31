@@ -74,11 +74,12 @@ Jukebox is a fully-featured, completely free Discord Music Bot. It can play song
 
 1. Download the repo and place the .zip file into a folder (eg. Downloads)
 2. Unzip it with your archive software of choice.
-3. Open `.env-sample` with your chosen text editor and paste your Discord bot token into the `[token goes here]` field (remove the square brackets as well)
-4. Save your changes and rename the file to `.env`.
-5. Create a new file in the root of the repo and name it `afk.json`. You don't need to edit this.
-6. Open a terminal window in the directory and run `npm i` (errors are fine as long as it doesn't fail)
-7. Now run `node index.js` and the bot should now be online.
+3. In the root directory of the repo, press CMD-SHIFT-I to view hidden files.
+4. Open `.env-sample` with your chosen text editor and paste your Discord bot token into the `[token goes here]` field (remove the square brackets as well)
+5. Save your changes and rename the file to `.env`.
+6. Create a new file in the root of the repo and name it `afk.json`. You don't need to edit this.
+7. Open a terminal window in the directory and run `npm i` (errors are fine as long as it doesn't fail)
+8. Now run `node index.js` and the bot should now be online.
 
 ## **Linux**
 **NOTE: This is only tested to work on Debian-based Linux distros (Ubuntu, Mint, Rasbian, etc.)**
@@ -95,8 +96,9 @@ Jukebox is a fully-featured, completely free Discord Music Bot. It can play song
 
 1. Download the repo and place the .zip file into a folder (eg. Downloads)
 2. Unzip it with your archive software of choice.
-3. Open `.env-sample` with your chosen text editor and paste your Discord bot token into the `[token goes here]` field (remove the square brackets as well)
-4. Save your changes and rename the file to `.env`.
-5. Create a new file in the root of the repo and name it `afk.json`. You don't need to edit this.
+3. Show hidden files by right-clicking the file explorer window and clicking "Show hidden files"
+4. Open `.env-sample` with your chosen text editor and paste your Discord bot token into the `[token goes here]` field (remove the square brackets as well)
+5. Save your changes and rename the file to `.env`.
+6. Create a new file in the root of the repo and name it `afk.json`. You don't need to edit this.
 7. Open a terminal window in the directory and run `npm i` (errors are fine as long as it doesn't fail)
 8. Now run `node index.js` and the bot should now be online.
