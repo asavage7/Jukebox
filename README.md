@@ -63,8 +63,6 @@ Jukebox is a fully-featured, completely free Discord Music Bot. It can play song
 
 ## **MacOS**
 ![MacOS Terminal (node index.js)](https://raw.githubusercontent.com/asavage7/Jukebox/main/assets/macos.png)
-**NOTE: This has not been fully tested and is not guaranteed to work.**
-
 	*Prerequisites*
  1. [Node.js](nodejs.org) v14 or above
  2. [FFmpeg](https://www.ffmpeg.org/download.html)
@@ -83,8 +81,9 @@ Jukebox is a fully-featured, completely free Discord Music Bot. It can play song
 7. Open a terminal window in the directory and run `npm i` (errors are fine as long as it doesn't fail)
 8. Now run `node index.js` and the bot should now be online.
 
+**NOTE: This has not been fully tested and is not guaranteed to work.**
+
 ## **Linux**
-**NOTE: This is only tested to work on Debian-based Linux distros (Ubuntu, Mint, Rasbian, etc.)**
 
 *Prerequisites*
  1. [Node.js](nodejs.org) (v14 or above) or use `sudo apt install nodejs`
@@ -104,3 +103,5 @@ Jukebox is a fully-featured, completely free Discord Music Bot. It can play song
 6. Create a new file in the root of the repo and name it `afk.json`. You don't need to edit this.
 7. Open a terminal window in the directory and run `npm i` (errors are fine as long as it doesn't fail)
 8. Now run `node index.js` and the bot should now be online.
+
+**NOTE: This is only tested to work on Debian-based Linux distros (Ubuntu, Mint, Rasbian, etc.)**
