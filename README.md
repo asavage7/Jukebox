@@ -28,7 +28,7 @@ Jukebox is a fully-featured, completely free Discord Music Bot. It can play song
 
 # Known Issues
 
- - Spinning disc icon may glitch out, might be fixed in 1.0.3
+ - Spinning disc icon may glitch out, ~~might be fixed in 1.0.3~~
  - Bot may refuse to play song for an unknown reason, seems to be because of timeouts or "Made for Kids" videos.
  - Bot throws an error when queue is empty rather than an info box, planning to fix on next release.
  - A whole load of issues with npm packages, none of them break the bot, but they should gradually get fixed over the next couple of releases.
