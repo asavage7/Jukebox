@@ -5,7 +5,7 @@ module.exports = {
         name: "help",
         description: "Shows all bot commands.",
         usage: "<command>",
-        aliases: ["commands", "help me", "pls help"]
+        aliases: ["commands", "help me"]
     },
 
     run: async function(client, message, args){

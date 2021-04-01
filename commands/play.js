@@ -3,6 +3,7 @@ const ytdl = require("ytdl-core");
 const yts = require("yt-search");
 const fs = require("fs");
 const sendError = require("../util/error")
+const sendInfo = require("../util/info")
 
 module.exports = {
     info: {
@@ -49,7 +50,7 @@ module.exports = {
                 .addField("Name", song.title, true)
                 .addField("Duration", song.duration, true)
                 .addField("Requested by", song.req.tag, true)
-                .setFooter("Note: The video may not play if it is a music video, privated, or an error occcurs.")
+                .setFooter("Note: The video may not play if it is copyrighted, privated, or \"made for kids\".")
             return message.channel.send(thing);
         }
 
@@ -74,7 +75,7 @@ module.exports = {
             var online = afk[message.guild.id]
             if (!song || message.guild.me.voice.channel.members.size == 1){
                 if (!online.afk) {
-                    sendError("Leaving the voice channel. Either queue was empty or I was alone in the VC. Add another song to continue, or use the command `;afk` to let me stay in the voice channel 24/7.", message.channel)
+                    sendInfo("Leaving the voice channel. Either queue was empty or I was alone in the VC. Add another song to continue, or use the command `;afk` to let me stay in the voice channel 24/7.", message.channel)
                     message.guild.me.voice.channel.leave();//If you want your bot stay in vc 24/7 remove this line :D
                     message.client.queue.delete(message.guild.id);}
 
@@ -111,7 +112,7 @@ module.exports = {
                 .addField("Name", song.title, true)
                 .addField("Duration", song.duration, true)
                 .addField("Requested by", song.req.tag, true)
-                .setFooter("Note: The video may not play if it is a music video, privated, or an error occcurs.")
+                .setFooter("Note: The video may not play if it is copyrighted, privated, or \"made for kids\".")
             queue.textChannel.send(thing);
         };
 

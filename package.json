@@ -1,6 +1,6 @@
 {
   "name": "jukebox",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Very simple discord music bot without any features locked behiend a paywall.",
   "main": "index.js",
   "license": "MIT",

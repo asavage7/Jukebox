@@ -1,6 +1,7 @@
 const { MessageEmbed } = require("discord.js");
 const sendError = require("../util/error");
 
+
 module.exports = {
     info: {
         name: "queue",
