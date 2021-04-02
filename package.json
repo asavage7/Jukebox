@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Very simple discord music bot without any features locked behiend a paywall.",
   "main": "index.js",
-  "license": "MIT",
+  "license": "GPL",
   "scripts": {
     "start": "node index.js",
     "lint": "eslint ./",
