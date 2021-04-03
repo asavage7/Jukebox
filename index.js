@@ -44,7 +44,7 @@ client.on("ready", () => {
     setInterval(() => {
         const index = Math.floor(Math.random() * (activities_list.length - 1) + 1); // generates a random number between 1 and the length of the activities array list
         client.user.setActivity(activities_list[index], { type: "LISTENING" }); // sets bot's activities to one of the phrases in the arraylist.
-    }, 10000); // Runs this every 10 seconds.
+    }, 60000); // Runs this every 60 seconds.
 });
 
 //Logging in to discord
