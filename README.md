@@ -84,6 +84,7 @@ Jukebox is a fully-featured, completely free Discord Music Bot. It can play song
 **NOTE: This has not been fully tested and is not guaranteed to work.**
 
 ## **Linux**
+![Linux terminal (node index.js)](https://raw.githubusercontent.com/asavage7/Jukebox/main/assets/linux.png)
 
 *Prerequisites*
  1. [Node.js](nodejs.org) (v14 or above) or use `sudo apt install nodejs`
